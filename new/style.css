@@ -1,0 +1,602 @@
+
+/*-------------body--------- */
+body{
+    margin:0;
+    padding: 0;
+
+    background-color: #08555a;
+    font-family: 'Ropa Sans', sans-serif;
+    overflow-x: hidden;
+   
+}
+/*---------Extra class for bg/color/font ---------- */
+.sketch{
+    font-family: 'Monoton';
+}
+
+.d-inline{
+    display: inline;
+}
+
+.bg{
+    background-color: #056164;
+}
+.bg2{
+    background-color: #084a64;
+   
+}
+.bg3{
+    background-color: #08555a;
+}
+
+.white{
+    color:wheat;
+}
+
+.center{
+    text-align: center;
+}
+
+.button{
+    
+   
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*---------------First Navigation Area--------------*/
+.main-nav{
+    border:2px solid wheat;
+    border-radius: 12px;
+}
+
+ol{
+    text-align: center;
+}
+
+ol li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    cursor:pointer;
+   
+}
+
+ol  a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ol li:hover{
+
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1; 
+   
+    background-color:#2b034f;
+     border-radius: 12px;
+}
+
+.active {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; 
+   
+    background-color:#48073b;
+     border-radius: 12px; 
+}
+
+ol li:hover a{
+    color: wheat;
+}
+
+/* --------Middle-Section----------*/
+#main-body{
+    line-height: 2;
+    height: 400px;
+    margin-top:1%;
+}
+
+#body-part{
+    
+    width: 70%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+/*-------Second Navigation Menu---------*/
+#nav{
+    background-color: rgb(21, 112, 82);
+    width: 25%;
+    float: left;
+    border: 2px solid #2b034f;
+    margin-right: 2%;
+    margin-left:1%;
+    border-radius: 7px;
+
+    background: linear-gradient(-45deg,rgb(121, 96, 90), rgb(194, 180, 163), rgb(162, 146, 131), rgb(22, 19, 16));
+     
+}
+.logo{
+    background-color: #2b034f;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid rgb(51, 33, 0);
+}
+.logo a{
+    color:wheat;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bolder;
+
+}
+
+
+
+ul{    margin: 0;
+    width: 100%;
+    float: left;
+    margin-left: -40px;
+
+    text-align: center;
+}
+
+ul li {
+    
+    list-style: none;
+    padding: 10px;
+    background-color: #084a64;
+    border:1px solid rgb(51, 33, 0);
+    box-shadow: 0px 5px  #3e005a;
+    border-radius: 2px;
+    cursor: pointer;
+   
+}
+
+ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul li:hover{
+    -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+    background-color:#2b034f;
+}
+
+ul li:hover a{
+    color: wheat;
+}
+
+/*-----------Image--------- */
+
+.image{
+    width:50%;
+}
+
+.image img{
+    width: 100%;
+    margin-left: 50%;
+    vertical-align: middle;
+   
+    
+}
+/*-----------Image Hover------------*/
+.name-h{
+    position: absolute;
+    margin-top: -63px;
+    margin-left: 86px;
+    padding: 15px 37px 15px 36px;
+    color:wheat;
+    text-transform: uppercase;   
+}
+
+
+#image .name-h{
+   visibility: hidden;
+}
+
+#image:hover .name-h{
+  
+    background-color: #2c034fb2;
+    visibility: visible;
+    cursor: pointer;
+    -webkit-transition: background-color 1.5s ease-out;
+    -moz-transition: background-color 1.5s ease-out;
+    -o-transition: background-color 1.5s ease-out;
+    transition: background-color 1.5s ease-out;
+}
+
+/*----- About Section ------------- */
+.description-body{
+    margin-top:5px;
+    width: 70%;
+    float: left;
+}
+
+
+.description-head{
+    border: 2px solid #2b034f;
+    border-radius: 7px;
+
+    text-align: center;
+    
+}
+.description-head h3{
+    margin-top: 0;
+    
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: #2b034f;
+    border-radius: 5px;
+
+}
+
+/*-------------DropDown and Form section---------- */
+
+
+#select{
+    width: 95%;
+
+    font-weight: 900;
+    font-family: 'Righteous', cursive;
+    border: 1px solid white;
+    background-color: wheat;
+    padding: 10px;
+    padding-right: 70px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#select option{
+    padding:5px;
+    font-weight: 900;
+    font-family: 'Righteous', cursive;
+    
+}
+
+.input-text{
+    border: 1px solid white;
+    background-color: wheat;
+    padding: 10px;
+    padding-right: 70px;
+   width:77%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;  
+}
+
+.input-submit{
+    border: 1px solid white;
+    background-color: wheat;
+    color:rgb(68, 9, 107);
+    padding: 10px;
+    font-weight: 900;
+   text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px; 
+
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+.input-submit:hover{
+    background-color:#2b034f;
+    color:rgb(255, 255, 255);
+
+    cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+
+.dropdown{
+    width: 45%;
+    float: left;
+    margin-left: 2px;
+    margin-right: 5%;
+    text-align: center;
+    border: 2px solid #2b034f;
+    border-radius: 7px;
+}
+
+
+.dropdown_subscribe_title{
+    margin-top: 0;
+    margin-bottom:0;
+    background-color: #2b034f;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+.subscribe{
+    
+    margin-right: 2px;
+    text-align: center;
+    border: 2px solid #2b034f;
+    border-radius: 7px;
+    width: 48%;
+    float: left;
+    text-align: center;
+}
+
+
+/*----------Footer Section---------*/
+#footer{
+    background-color: #2b034f;
+    color: rgb(255, 255, 255);
+    font-stretch: semi-condensed;
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 900;
+    padding: 5px;
+    line-height: 2;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+/*-------------Animation Section--------------*/
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+
+
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+/*----------Some Media Query----------*/
+
+@media screen and (max-width:923px){
+   #footer{
+       margin-top:220px !important;
+   }
+
+   .name-h{
+    display: none;
+    }
+
+    .image img{
+        margin-left:82px !important;
+    }
+}
+
+@media screen and (max-width:681px){
+    #footer{
+        margin-top:250px !important;
+    }
+ }
+
+ @media screen and (max-width:1145px){
+    .input-text{
+        width:72%;
+    }
+}
+
+
+ 
+
+
+@media screen and (max-width:1125px){
+    .name-h{
+    margin-left: 71px;
+    padding: 15px 22px 15px 22px;
+    }
+}
+
+@media screen and (max-width:292px){
+    .logo {
+        background-color: #5c0505;
+        text-align: center;
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 923px) {
+    .image img {
+        width: 50%;
+        margin-left: 30px;
+        margin-top: 5px;
+        
+    }
+
+    .description-body{
+        margin-top:20px;
+    }
+
+
+    .description-body .dropdown {
+        width: 100%;
+        float: left;
+        margin-left: 2px;
+        text-align: center;
+        border-bottom: 1px solid wheat;
+    }
+
+
+    .description-body .subscribe {
+        margin-left: 2px;
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .input-text {
+        width: 92%;
+        border: 1px solid white;
+        background-color: wheat;
+        padding: 10px;
+        
+        margin-top: 7px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        margin-right: 3px;
+    }
+
+    #select {
+        
+        padding:0px;
+        padding-right: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 5px;
+       
+        
+    }
+
+    .input-submit {
+     
+        padding: 5px;
+      
+        margin-left: 25px;
+    }
+  }
+
+  /*------Fonts--------*/
+  /* For extra font */
+  @font-face {
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ropa Sans Regular'), local('RopaSans-Regular'), url(https://fonts.gstatic.com/s/ropasans/v8/EYqxmaNOzLlWtsZSScy6UzNpY5I.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ropa Sans Regular'), local('RopaSans-Regular'), url(https://fonts.gstatic.com/s/ropasans/v8/EYqxmaNOzLlWtsZSScy6XTNp.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Righteous'), local('Righteous-Regular'), url(https://fonts.gstatic.com/s/righteous/v6/1cXxaUPXBpj2rGoU7C9WhnGFucE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Righteous'), local('Righteous-Regular'), url(https://fonts.gstatic.com/s/righteous/v6/1cXxaUPXBpj2rGoU7C9WiHGF.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* latin */
+
+
+  /* latin */
+@font-face {
+    font-family: 'Monoton';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Monoton'), local('Monoton-Regular'), url(https://fonts.gstatic.com/s/monoton/v8/5h1aiZUrOngCibe4TkHLQg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+
+  /***********************************************************************************
+  ************************SUBSCRIBE TO PEWDIEPIE*************************************
+  ************************************************************************************/
